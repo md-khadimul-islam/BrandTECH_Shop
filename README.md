@@ -4,7 +4,13 @@ A clean-architecture Flutter product listing app built for the BrandTECH Mobile 
 
 ## Screenshots
 
-> Run the app and take screenshots to add here.
+| Home | Details |
+|---|---|
+| ![BrandTECH Shop screenshot](assets/home.png) | ![BrandTECH Shop screenshot](assets/details.png)
+
+| Favorites |
+|---
+| ![BrandTECH Shop screenshot](assets/favorite.png)
 
 ## Architecture
 
