@@ -1,0 +1,25 @@
+abstract class Failure {
+  final String message;
+  const Failure(this.message);
+}
+
+class NetworkFailure extends Failure {
+  const NetworkFailure(super.message);
+}
+
+class NoInternetFailure extends Failure {
+  const NoInternetFailure() : super('No internet connection');
+}
+
+class ServerFailure extends Failure {
+  final int? statusCode;
+  const ServerFailure(super.message, {this.statusCode});
+}
+
+class CacheFailure extends Failure {
+  const CacheFailure(super.message);
+}
+
+class UnknownFailure extends Failure {
+  const UnknownFailure() : super('An unknown error occurred');
+}
